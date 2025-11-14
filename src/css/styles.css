@@ -1,18 +1,58 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #555;
+}
+
+
+.form {
+  width: 360px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  font-family: sans-serif;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+fieldset {
+  display: flex;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+button {
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background: #e7e7e7;
+  font-size: 16px;
+  cursor: pointer;
+}
